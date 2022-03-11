@@ -1,29 +1,50 @@
+.ListaCursos ul{
+	
+	 /* display: inline;  */
+	min-width: 100px;
+	display: inline-block;
+	vertical-align: top;
+	
+	
+	
+}
+
+footer {
+	color: white;
+	text-align: center;
+	font-size: 18px;
+}
+
+::-webkit-scrollbar {
+	display: none;
+	}
+
 
 html,body {
 	margin: 0px;
 	padding: 0px;
+	/* overflow: hidden; */
 }
 
 body {
 	background-color: #2b2b2b ;
+	/* background-color: #b577bb ; */
 	font-family: 'montserrat', sans-serif;
 }
 
 .navigation ul {
 	margin-top: 0px;
 	list-style: none;
-	padding-left: 0px;
 	text-align: right;
-	height: 50px;
-}
+}	
 
 .navigation {
 	background-color: #2b2b2b; 
 	color: white;
 	height: 50px;	
 
-	animation-name: profile-capa;
-	animation-duration: 1s
+	/* animation-name: profile-capa; */
+	/* animation-duration: 1s */
 }
 
 .navigation li {
@@ -41,7 +62,7 @@ body {
 }
 
 .navigation a:hover{
-	color:#f27609 ;
+	color:#6ce5e8 ;
 }
 
 .navigation li.threeline-icon {
@@ -50,7 +71,7 @@ body {
 
 
 .navigation li.threeline-icon:hover {
-	color:  #f27609;
+	color:  #6ce5e8;
 	cursor: pointer;
 }	
 
@@ -59,7 +80,7 @@ body {
 }
 
 .capa span {
-	color: #f27609;
+	color: #6ce5e8;
 	display: block;
 }
 
@@ -78,8 +99,8 @@ body {
 
 .profile-pic img {
 	width: 250px;
-	border-radius: 250px;
-	margin-top: 150px;
+	border-radius:0px;
+	margin-top: 190px;
 }
 
 .profile-title {
@@ -115,14 +136,16 @@ body {
 	padding-right: 180px;
 	padding-bottom: 80px;
 	padding-left: 100px;
+	
 
 	animation-name: conteudo;
 	animation-duration: 1s
 }
 
-.main h1 {
-	color: white;
+.main h1, h4 {
+	color: #6ce5e8;
 	font-weight: normal;
+
 }
 
 .main h2 {
@@ -133,8 +156,15 @@ body {
 	margin-top: 40px;
 }
 
+ i {
+	color: #ecebe9;
+	margin-left: 0px;
+	
+	font-size: 11px;
+}
+
 .main h3 {
-	color: #f27609;
+	color: #6ce5e8;
 	font-size: 30px;
 	text-transform: uppercase;
 	font-size: 15px;
@@ -144,7 +174,7 @@ body {
 	font-size: 20px;
 }
 
-.main p {
+.main p{
 	color: white;
 	font-size: 18px;
 	font-weight: 100px;
@@ -212,7 +242,7 @@ body {
 
 .black-text h1 {
 	font-size: 16px;
-	color: #f27609;
+	color: #6ce5e8;
 	text-transform: uppercase;
 	margin-top: 0px;
 }
@@ -228,14 +258,14 @@ body {
 }
 
 .foto-trabalhos {
-	width: 50%;
 	margin-bottom: 10px;
 	margin-top: 10px;
+	display: inline-block;
 }
 
 
 .back-link {
-	color:#f27609;
+	color:#070707;
 }
 
 	@keyframes profile-capa {
@@ -265,9 +295,9 @@ body {
 	display: none;
 }
 
-.navigation li.threeline-icon {
+/* .navigation li.threeline-icon {
 	display: inline-block
-}
+} */
 
 .capa div {
 	display:block;
@@ -354,11 +384,6 @@ body {
 	width: 100%;
 	padding: 0;
 }
-
-
-
-
-
 
 
 
