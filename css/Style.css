@@ -43,8 +43,8 @@ body {
 	color: white;
 	height: 50px;	
 
-	/* animation-name: profile-capa; */
-	/* animation-duration: 1s */
+	animation-name: profile-capa;
+	animation-duration: 1s
 }
 
 .navigation li {
@@ -295,9 +295,9 @@ body {
 	display: none;
 }
 
-/* .navigation li.threeline-icon {
-	display: inline-block
-} */
+.navigation li.threeline-icon {
+	display: inline-block;
+}
 
 .capa div {
 	display:block;
@@ -338,7 +338,7 @@ body {
 
 .main p {
 	text-align: left;
-	line-height: 30px;
+	line-height: 10px;
 }
 
 .main a {
