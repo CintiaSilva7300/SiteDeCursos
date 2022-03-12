@@ -197,7 +197,7 @@ body {
 .caminho {
 	list-style: nome;
 	padding-left: 0px;
-	calor: grey;
+	color: grey;
 }
 
 .caminho li {
@@ -338,7 +338,7 @@ body {
 
 .main p {
 	text-align: left;
-	line-height: 10px;
+	line-height: 30px;
 }
 
 .main a {
